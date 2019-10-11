@@ -14,9 +14,9 @@ describe('#guess', () => {
         game.lower();
         result = game.guess();
         game.lower();
-        result = game.guess();
-        game.greater();
-        result = game.guess();
+        result = game.guess(); //253 поняли что мало, теперь диапазон от 253 - 506
+        game.greater(); 
+        result = game.guess(); 
         game.greater();
         result = game.guess();
         game.lower();
